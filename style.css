@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-image: url("https://w0.peakpx.com/wallpaper/705/258/HD-wallpaper-black-color-background-texture-minimalism.jpg");
+    background-size: cover;
+}
+h1 {
+    text-align: center;
+    color: darkgrey;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 3px 3px 3px black;
+}

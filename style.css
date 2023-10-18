@@ -78,3 +78,10 @@ nav > a {
     border-radius: 5px;
     padding-bottom: 2;
     }
+
+    #music-video {
+        display: flex;
+        justify-content: center;
+        padding-top: 25;
+        padding-bottom: 4;
+    }

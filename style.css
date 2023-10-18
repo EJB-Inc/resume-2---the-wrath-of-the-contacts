@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 body {
@@ -10,6 +11,70 @@ body {
 h1 {
     text-align: center;
     color: darkgrey;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-shadow: 3px 3px 3px black;
 }
+
+#main-picture {
+    display: flex;
+    justify-content: center;
+   
+}   
+
+#about-pic {
+    display: flex;
+    justify-content: center;
+}
+
+#crowd-pic{
+    width: 500;
+    padding-top: 3;
+    padding-bottom: 4;
+}
+div > img{
+    width: 260px;
+    
+}
+
+section > p {
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkgrey;
+    font-size:x-small;
+    font-style: italic;
+}
+
+article > p {
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkgrey;
+    padding-top: 30;
+    padding-bottom: 20;
+    margin-left:30;
+    margin-right: 30;
+}
+
+.navbar { 
+    display: flex;
+    justify-content: center;
+    padding-top: 30;
+    
+  }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    
+   
+}
+nav > a {
+    color: darkgrey;
+    background-color: rgb(0, 0, 0);
+    border: 1px transparent solid;
+    border-radius: 5px;
+    padding-bottom: 2;
+    }
